@@ -1,0 +1,106 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.wrapper h1{
+    color: #1877F2;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px; 
+    border-radius: 10px;   
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 
+    0 5px 15px rgba(0, 0, 0, 0.1);
+   
+   
+}
+.formWrapper p{
+    font-size: 18px;
+}
+
+ input{
+     
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-color: #e4e1e1;
+    border-radius: 5px;
+    border-style: solid; 
+}
+
+input::placeholder {
+    color: #cfcfcf;    
+    font-size: 15px; 
+   
+}
+
+.loginBtn{
+    padding: 10px;
+    background-color: #1877F2;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link{
+    font-weight:lighter ;
+    font-size: 12px;
+    color: #1877F2;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.or {
+    display: flex;
+    align-items: center;  
+    text-align: center;  
+    padding: 15px;
+}
+
+.orOne {
+  
+    height: 1px;
+    background-color: #ccc;
+    width: 250px;
+}
+
+
+
+.span {
+    margin: 0 10px; 
+    font-size: 14px;
+    color: #888;
+}
+
+.createAcctBtn{
+    margin-left: 70px;
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    border: none;    
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;   
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
